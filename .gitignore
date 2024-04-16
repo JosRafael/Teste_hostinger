@@ -9,8 +9,8 @@
 /coverage
 
 # Permitir arquivos dentro de /build, mas não a pasta /build em si
-!/build/*
-!/build/**/*
+/build/*
+/build/**/*
 
 # misc
 .DS_Store
