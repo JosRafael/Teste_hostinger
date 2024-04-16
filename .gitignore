@@ -1,5 +1,4 @@
-# Ignorar tudo
-*
+
 
 !/build/*
 !/build/**/*
