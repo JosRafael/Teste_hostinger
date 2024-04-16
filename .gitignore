@@ -1,7 +1,8 @@
+# Ignore todas as pastas
+/*
 
-
-!/build/*
-!/build/**/*
+# Exceto a pasta build
+!/build/
 
 # Dependências
 node_modules/
