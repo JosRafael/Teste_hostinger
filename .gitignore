@@ -1,7 +1,5 @@
-# Ignore todas as pastas
 /*
 
-# Exceto a pasta build
 !/build/
 
 # Dependências
