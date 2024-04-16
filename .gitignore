@@ -1,11 +1,9 @@
 # Ignorar tudo
 *
 
-# Mas manter a pasta build (não ignorar)
-!/build
-
-# production
-/build
+# Permitir arquivos dentro de /build, mas não a pasta /build em si
+!/build/*
+!/build/**/*
 
 # Dependências
 node_modules/
