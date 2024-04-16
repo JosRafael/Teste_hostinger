@@ -7,13 +7,9 @@
 
 # testing
 /coverage
-#!/bin/bash
 
-# Vá para o diretório onde o Git coloca os arquivos
-cd /path/to/git/directory
-
-# Agora copie os arquivos para o public_html
-cp -R build/* /path/to/public_html/
+# production
+/build
 
 # misc
 .DS_Store
