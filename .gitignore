@@ -1,12 +1,11 @@
-/*
-!/public_html
-
+# Ignore node_modules e outros arquivos/diretórios específicos
 /node_modules
 /.pnp
 .pnp.js
 /coverage
 /build
 
+# Ignore arquivos diversos
 .DS_Store
 .env.local
 .env.development.local
@@ -15,3 +14,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Mantenha apenas o diretório public_html
+/*
+!/public_html
