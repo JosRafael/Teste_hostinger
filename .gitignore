@@ -1,7 +1,6 @@
 # Ignorar tudo
 *
 
-# Permitir arquivos dentro de /build, mas não a pasta /build em si
 !/build/*
 !/build/**/*
 
@@ -13,7 +12,6 @@ node_modules/
 # Testes
 coverage/
 
-# Arquivos de sistema e variáveis de ambiente
 .DS_Store
 .env.local
 .env.development.local
