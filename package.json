@@ -27,10 +27,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build && npm run deploy",
+    "deploy": "shx cp -R build/* path/to/your/local/public_html"
   },
   "eslintConfig": {
     "extends": [
@@ -51,6 +49,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-modal": "^3.16.3"
+    "@types/react-modal": "^3.16.3",
+    "shx": "^0.3.4"
   }
 }
