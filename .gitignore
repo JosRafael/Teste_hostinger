@@ -4,8 +4,8 @@
 # Mas manter a pasta build (não ignorar)
 !/build
 
-# Dentro de build, não ignorar nada
-!/build/**
+# production
+/build
 
 # Dependências
 node_modules/
