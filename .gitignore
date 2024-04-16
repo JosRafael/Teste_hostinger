@@ -1,15 +1,12 @@
-# Ignore all files and directories except public_html
 /*
 !/public_html
 
-# Ignore node_modules and other files/directories specified
 /node_modules
 /.pnp
 .pnp.js
 /coverage
 /build
 
-# Ignore miscellaneous files
 .DS_Store
 .env.local
 .env.development.local
